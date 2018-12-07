@@ -8,7 +8,7 @@
 
 	if ($idadeAtual < $idadeCrianca){
 
-		echo "É Criança"
+		echo "É Criança";
 
 	}else if ($idadeAtual < $idadeMaior){
 
@@ -26,6 +26,6 @@
 
 	echo "<br>";
 
-	echo ($idadeAtual < $idadeMaior)?"Menor de idade":"Maior de idade";
+	//echo ($idadeAtual < $idadeMaior)?"Menor de idade":"Maior de idade";
 
 ?>
